@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./tubiao/bootstrap-icons-1.11.2/font/bootstrap-icons.css"/>
+	<style>
+	/* Make the image fully responsive */
+	.carousel-inner img {
+	    width: 105%;
+	    height: 105%;
+	}
+	#classified a{
+		color: black;
+	}
+	</style>
+	<body class="bg-warning">
+		<div class="container-fluid">
+		  <div class="row">
+		    <div class="col-7">
+		      <div class="container-fluid">
+		        <div class="row">
+		          <div class="col-md-2"><!-- 第一个小盒子，占空间用的 --></div>
+		          <div class="col-md-2 bg-white">
+					<ul class="list-unstyled" id="classified">
+					  <li class="mb-2 mt-2"><span><a href="#">家用电器</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">手机</a>/<a href="#">运行商</a>/<a href="#">数码</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">电脑</a>/<a href="#">办公</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">家居</a>/<a href="#">家具</a>/<a href="#">厨具</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">男装</a>/<a href="#">女装</a>/<a href="#">童装</a>/<a href="#">内衣</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">美妆</a>/<a href="#">个护清洁</a>/<a href="#">宠物</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">女装</a>/<a href="#">箱包</a>/<a href="#">珠宝</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">男鞋</a>/<a href="#">运动</a>/<a href="#">户外</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">房产</a>/<a href="#">汽车</a>/<a href="#">汽车用品</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">母婴</a>/<a href="#">玩具乐器</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">食品</a>/<a href="#">酒类</a>/<a href="#">生鲜</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">医药保健</a>/<a href="#">计生情趣</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">图书</a>/<a href="#">文娱</a>/<a href="#">教育</a>/<a href="#">电子书</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">机票</a>/<a href="#">酒店</a>/<a href="#">旅游</a>/<a href="#">生活</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">支付</a>/<a href="#">白条</a>/<a href="#">保险</a>/<a href="#">金融</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">安装</a>/<a href="#">维修</a>/<a href="#">清洁</a>/<a href="#">二手</a></span></li>
+					  <li class="mb-2 mt-2"><span><a href="#">五金机电</a>/<a href="#">元器件</a></span></li>
+					</ul>
+		          </div>
+				  
+				  
+				  <!-- 轮播图 -->
+				  <div id="demo" class="carousel slide col-md-8" data-ride="carousel">
+				    <!-- 指示符 -->
+				    <ul class="carousel-indicators">
+				      <li data-target="#demo" data-slide-to="0" class="active"></li>
+				      <li data-target="#demo" data-slide-to="1"></li>
+				      <li data-target="#demo" data-slide-to="2"></li>
+				      <li data-target="#demo" data-slide-to="3"></li>
+				      <li data-target="#demo" data-slide-to="4"></li>
+				      <li data-target="#demo" data-slide-to="5"></li>
+				    </ul>
+				    <!-- 轮播图片 -->
+				    <div class="carousel-inner">
+				      <div class="carousel-item active">
+				        <img src="./img/轮播图9.jpeg">
+				      </div>
+				      <div class="carousel-item">
+				        <img src="./img/轮播图2.jpeg">
+				      </div>
+				      <div class="carousel-item">
+				        <img src="./img/轮播图3.jpeg">
+				      </div>
+					  <div class="carousel-item">
+					    <img src="./img/轮播图4.jpeg">
+					  </div>
+					  <div class="carousel-item">
+					    <img src="./img/轮播图5.jpeg">
+					  </div>
+					  <div class="carousel-item">
+					    <img src="./img/轮播图8.jpeg">
+					  </div>
+				    </div>
+				    <!-- 左右切换按钮 -->
+				    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+				      <span class="carousel-control-prev-icon"></span>
+				    </a>
+				    <a class="carousel-control-next" href="#demo" data-slide="next">
+				      <span class="carousel-control-next-icon"></span>
+				    </a>
+				  </div>
+				  
+		        </div>
+		      </div>
+		    </div>
+		    <div class="col-5 inner-box">
+				<!-- 第二个大盒子 -->
+		      <div class="container-fluid">
+		      	<div class="row">
+		      		<div id="demo2" class="carousel slide col-md-5" data-ride="carousel">
+		      		 
+		      		  <!-- 指示符 -->
+		      		  <ul class="carousel-indicators">
+		      		    <li data-target="#demo2" data-slide-to="0" class="active"></li>
+		      		    <li data-target="#demo2" data-slide-to="1"></li>
+		      		    <li data-target="#demo2" data-slide-to="2"></li>
+		      		    <li data-target="#demo2" data-slide-to="3"></li>
+		      		  </ul>
+		      		 
+		      		  <!-- 轮播图片 -->
+		      		  <div class="carousel-inner">
+		      		    <div class="carousel-item active">
+		      		      <img src="./img/立绘5.jpeg">
+		      		    </div>
+		      		    <div class="carousel-item">
+		      		      <img src="./img/立绘2.jpeg">
+		      		    </div>
+						<div class="carousel-item">
+						  <img src="./img/立绘3.jpeg">
+						</div>
+						<div class="carousel-item">
+						  <img src="./img/立绘4.jpeg">
+						</div>
+		      		  </div>
+		      		 
+		      		  <!-- 左右切换按钮 -->
+		      		  <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+		      		    <span class="carousel-control-prev-icon"></span>
+		      		  </a>
+		      		  <a class="carousel-control-next" href="#demo2" data-slide="next">
+		      		    <span class="carousel-control-next-icon"></span>
+		      		  </a>
+		      		</div>
+					
+					
+					<!-- 个人界面 -->
+					<div class="col-md-5">
+						<div class="container-fluid bg-white">
+						  <div class="row justify-content-center align-items-center">
+						    <div class="col-12 text-center">
+						      <img src="./img/logo.jpg" width="50px" height="50px" class="img-fluid rounded-circle mb-3" alt="Avatar">
+						      <h2 class="mb-0 text-muted">hi，欢迎来逛京东!</h2>
+						    </div>
+						  </div>
+						  <div class="row justify-content-center mt-2">
+						    <div class="col-10 col-md-10 rounded mr-2 ml-2" style="background-color:#ffffcc;">
+						      <a href="#" class="d-block p-1 text-left">
+								<b>PLUS会员</b><br />
+								<span>最高3%返利</span>
+						      </a>
+							  <a href="#" class="d-block p-1 text-right">
+							  		<b><i class="bi bi-caret-right-fill">立刻开通</i></b>
+							  </a>
+						    </div>
+						    <div class="col-10 col-md-10 rounded mr-2 ml-2 mt-2" style="background-color:#ccebff;">
+						      <a href="#" class="d-block p-1 text-left">
+						        <b>企业会员</b><br />
+								<span>新人立省千元</span>
+						      </a>
+							  <a href="#" class="d-block p-1 text-right">
+							  		<b><i class="bi bi-caret-right-fill">立刻开通</i></b>
+							  </a>
+						    </div>
+						  </div>
+						  
+						  <div class="row justify-content-center mt-2">
+						    <div class="col-12">
+						      <div class="row justify-content-center">
+						        <div class="col-4">
+						          <div class="rounded text-center mt-1">
+									  <i class="bi bi-buildings-fill"></i><br />
+									  <span>企业购</span>
+						          </div>
+						        </div>
+						        <div class="col-4">
+						          <div class="rounded text-center mt-1">
+						            <i class="bi bi-cart-fill"></i><br />
+						            <span>礼品卡</span>
+						          </div>
+						        </div>
+						        <div class="col-4">
+						          <div class="rounded text-center mt-1">
+						           <i class="bi bi-phone-fill"></i><br />
+						           <span>话费</span>
+						          </div>
+						        </div>
+						      </div>
+							  <div class="row justify-content-center mt-1">
+							    <div class="col-4">
+							      <div class="rounded text-center">
+							  			<i class="bi bi-file-earmark-fill"></i><br />
+							  			<span>白条</span>
+							      </div>
+							    </div>
+							    <div class="col-4">
+							      <div class=" rounded text-center mt-1">
+							        <i class="bi bi-droplet-fill"></i><br />
+							        <span>加油卡</span>
+							      </div>
+							    </div>
+							    <div class="col-4">
+							      <div class="rounded text-center mt-1">
+							       <i class="bi bi-globe-asia-australia"></i><br />
+							       <span>机票</span>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="row justify-content-center">
+							    <div class="col-4">
+							      <div class="rounded text-center mt-1">
+							  			<i class="bi bi-bus-front-fill"></i><br />
+							  			<span>火车票</span>
+							      </div>
+							    </div>
+							    <div class="col-4">
+							      <div class="rounded text-center mt-1">
+							        <i class="bi bi-badge-vr-fill"></i><br />
+							        <span>电影票</span>
+							      </div>
+							    </div>
+							    <div class="col-4">
+							      <div class="rounded text-center mt-1">
+							       <i class="bi bi-tools"></i><br />
+							       <span>五金城</span>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="row justify-content-center">
+							    <div class="col-4">
+							      <div class="rounded text-center mt-1">
+							  			<i class="bi bi-dpad-fill"></i><br />
+							  			<span>游戏</span>
+							      </div>
+							    </div>
+							    <div class="col-4">
+							      <div class="rounded text-center mt-1">
+							        <i class="bi bi-door-closed-fill"></i><br />
+							        <span>酒店</span>
+							      </div>
+							    </div>
+							    <div class="col-4">
+							      <div class="rounded text-center mt-1">
+							       <i class="bi bi-cloud-fill"></i><br />
+							       <span>云建站</span>
+							      </div>
+							    </div>
+							  </div>
+						    </div>
+						  </div>
+						  <div class="text-left mt-1">
+							  <span class="text-danger">资讯:</span>
+							  <span class="text-muted">刘强东：原来，你也...</span>
+						  </div>
+						</div>
+					</div>
+					
+					
+					<div class="col-md-2 bg-white"></div>
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</body>
+</html>

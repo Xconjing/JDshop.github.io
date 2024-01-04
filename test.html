@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./tubiao/bootstrap-icons-1.11.2/font/bootstrap-icons.css"/>
+  <title>Bootstrap 下拉选择器</title>
+  <style>
+	  .tzw a{
+		  color: darkgrey;
+	  }
+	  .zxbk a{
+		  font-size: 19px;
+	  }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-light bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-2 d-flex justify-content-center p-0" style="width: 20%">
+          <!-- 左侧板块内容 -->
+          <div class="d-flex align-items-center justify-content-center p-3" style="height: 100%;">
+            <img src="https://img10.360buyimg.com/img/jfs/t1/192028/25/33459/5661/63fc2af2F1f6ae1b6/d0e4fdc2f126cbf5.png" alt="logo图片" width="260px" height="160px"/>
+          </div>
+        </div>
+        <div class="col-8 d-flex justify-content-center flex-column">
+          <!-- 中间上方板块内容 -->
+          <div class="text-center p-2">
+  			<!-- 搜索框 -->
+  			<form class="form-inline my-2 my-lg-0">
+  			  <div class="input-group">
+  			    <input class="form-control form-control-sm" type="search" placeholder="JS入门到入土" aria-label="Search" style="width: 580px; height: 42px;border-color: red;">
+  			    <div class="input-group-append">
+  			      <button class="btn btn-sm bg-danger" type="submit" style="width: 60px;"><i class="bi bi-search"></i></button>
+  			    </div>
+  			  </div>
+  			  <!-- 跳转位 -->
+  			  <div class="tzw">
+  			    <span><a href="#">荣耀手机</a></span>&nbsp;&nbsp;
+  			    <span><a href="#">小米手机</a></span>&nbsp;&nbsp;
+  			    <span><a href="#">苹果手机</a></span>&nbsp;&nbsp;
+  			    <span><a href="#">大疆无人机</a></span>&nbsp;&nbsp;
+  			  </div>
+			  <!-- 添加购物车按钮 -->
+			    <button class="btn btn-danger mt-3 ml-auto">我的购物车</button>
+			  
+  			</form>
+			
+			
+  		</div>
+          <!-- 中间下方板块内容 -->
+  		<div class="zxbk d-flex justify-content-center mt-4 mr-auto">
+  		  <span><a href="#" class="mr-2 text-dark">京东超市</a></span>
+  		  <span><a href="#" class="mr-2 text-dark">秒杀</a></span>
+  		  <span><a href="#" class="mr-2 text-dark">京东家电</a></span>
+  		  <span><a href="#" class="mr-2 text-dark">京东生鲜</a></span>
+  		  <span><a href="#" class="mr-2 text-dark">电脑数码</a></span>
+  		  <span><a href="#" class="mr-2 text-dark">PluS会员</a></span>
+  		  <span><a href="#" class="mr-2 text-dark">京东手机</a></span>
+  		  <span><a href="#" class="mr-2 text-dark">便宜包邮</a></span>
+  		  <span><a href="#" class="mr-2 text-dark">进口好物</a></span>
+  		</div>
+        </div>
+		
+		<!-- 右侧内容（广告位） -->
+        <div class="col-2 d-flex justify-content-end p-0">
+			
+          <div class="mr-auto mt-4">
+			  <a href="#">
+				  <img src="./img/护手霜广告1.png" alt="相机更改" width="190px" height="155px" class="rounded"/>
+			  </a>
+  		</div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</body>
+</html>
